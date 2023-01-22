@@ -101,7 +101,7 @@ async def initiate_bot():
     os.system("clear")
     header = Table(show_header=True, header_style="bold yellow")
     header.add_column(
-        "\x59\x75\x6b\x6b\x69\x20\x4d"
+        "LOGI"
     )
     console.print(header)
     with console.status(

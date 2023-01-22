@@ -81,11 +81,11 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","Budweiserrobot")
 
 # Sudo Users ID(not username) for Bot. (For multiple users seperate IDs with space)
 # Input type must be interger.
-SUDO_USERS =int(getenv("SUDO_USERS",1955509952))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5432224567 1955509952").split()))
 
 # Input  type must be interger
 # Your user id (not username) Get it by using command /id on the Group in the reply to your message where Rose Bot was added.
-OWNER_ID = int(getenv("OWNER_ID", 5523873067))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5432224567 1955509952").split()))
 
 ## String Session Vars ...
 # You'll need a Pyrogram String Session for these vars.

@@ -26,9 +26,11 @@ def url_markup(videoid, duration, user_id, query, query_type):
         ],
         [
             InlineKeyboardButton(
-                text="𝐋𝐚𝐢𝐧𝐧𝐲𝐚",
+                text="𝐬𝐞𝐚𝐫𝐜𝐡 𝐦𝐨𝐫𝐞",
                 callback_data=f"Search {query}|{user_id}",
             ),
+        ],
+        [
             InlineKeyboardButton(
                 text="𝐂𝐥𝐨𝐬𝐞",
                 callback_data=f"forceclose {query}|{user_id}",

@@ -94,7 +94,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5432224567 1955509952").split()))
 # One Telegram Account can join upto 500 chats.
 # If your bot is running in higher number of chats it will create a problem for assistant to join and leave chat everytime giving invite link exportation floods too
 # You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
-STRING1 ="BQBxE3LINO0xkjcku7bRgrIKuhflRvzM7vM4Jy0SQlp4S2CS4XOA80pn9dbkUdO1EQ-VfOwghXu2jB4J7UuOI_k7wHtzOyjkSnD2u95r1p-Jhysj54Dm3Xzmpy6EJXWkcmBFS781yYAtYma748teY96Q5VcQ4aSpKgClK7PbY9F7Vk9KstPDkwDdAhEIYA5pGV6d08L2xtKaPvTT_DKH7s9jVOb64B7Qef3t0mPMbBf_9wLUQvaYqjkb9r3R6IhIBefPYBB5IsOfIuQXP-O9uVtKps19n3-woHCbI3tS5yZo_LMa7sjpVnG8m2N9NLQZc2XqbOrGJWtVGkM1SRF3C6WhAAAAAUk_nSsA"
+STRING1 ="BQCiIvEqGF6NcGwrk01Nj005zfX3cuEgX6xoI0A3aBce3kNVDl7ziBJ2DfxgMvgmKyDSlwfpGh6ouc0wZStZN52VQz_gLux4nyOgOOmlflmafxwyQKgpcPAGO9iim1hccxTOeN2uxE6U34tY6rEl4rwPLLSwGjZ5zBfPAOy66lcBOqFmvWWLMdNT-8i3AxeBQOHQbpPKQxaaceyhbYmLiYwQJvWt9XQlPc3w6U--PE1OwJFyo7Y0ThxE2uEnFCvIcOlNVicB3N1QhQbUNdukkxrOoBjW0LF2MlesOQ4ekUZzr5OmT0LB6W47L40xyPLpm4DEoi0AOP1QWCYj2yingNijAAAAAUk_nSsA"
 if str(getenv("STRING_SESSION1")).strip() == "":
     STRING1 = STRING1
 else:

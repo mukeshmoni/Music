@@ -236,7 +236,7 @@ async def Music_Stream(_, CallbackQuery):
         f"**{MUSIC_BOT_NAME} Downloader**\n\n**Title:** {title[:50]}\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
     )
     downloaded_file = await loop.run_in_executor(
-         None , download, videoid, mystic, title
+         download, videoid, mystic, title
     )
     raw_path = await convert(downloaded_file)
     theme = await check_theme(chat_id)
